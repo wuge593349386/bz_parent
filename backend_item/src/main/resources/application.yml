@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backend-item
+server:
+  port: 9020
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka/

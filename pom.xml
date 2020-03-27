@@ -15,6 +15,10 @@
     <modules>
         <module>common_mapper</module>
         <module>common_pojo</module>
+        <module>common_eureka</module>
+        <module>common_utils</module>
+        <module>common_item</module>
+        <module>backend_item</module>
     </modules>
     <properties>
         <mybatis-version>3.5.1</mybatis-version>
