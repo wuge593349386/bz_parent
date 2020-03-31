@@ -1,6 +1,7 @@
 package com.bjsxt.item.controller;
 
 import com.bjsxt.item.service.ItemService;
+import com.bjsxt.pojo.TbItem;
 import com.bjsxt.utils.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -32,5 +33,23 @@ public class ItemController {
         return itemService.selectTbItemAllByPage(page, rows);
     }
 
+    /**
+     * 插入商品
+     * @param tbItem
+     * @return
+     */
+    @PostMapping("/insertTbItem")
+    public Integer insertTbItem(@RequestBody TbItem tbItem){
+        return this.itemService.insertTbItem(tbItem);
+    }
 
+    /**
+     * 删除商品
+     * @param tbItem
+     * @return
+     */
+    @PostMapping("/deleteItemById")
+    public Integer deleteItemById(@RequestBody TbItem tbItem){
+        return this.itemService.updateItemById(tbItem);
+    }
 }

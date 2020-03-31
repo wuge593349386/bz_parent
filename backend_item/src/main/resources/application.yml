@@ -8,8 +8,12 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka-server:8761/eureka/
 
-FTP_HOST: 192.168.70.144
+FTP_HOST: 192.168.1.99
 FTP_PORT: 21
 FTP_USERNAME: ftpuser
 FTP_PASSWORD: ftpuser
 FTP_BASEPATH: /home/ftpuser/
+
+tx-lcn:
+  client:
+    manager-address: 192.168.70.157:8070

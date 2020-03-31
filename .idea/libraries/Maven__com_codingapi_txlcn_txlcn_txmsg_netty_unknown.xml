@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.codingapi.txlcn:txlcn-txmsg-netty:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/codingapi/txlcn/txlcn-txmsg-netty/unknown/txlcn-txmsg-netty-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/codingapi/txlcn/txlcn-txmsg-netty/unknown/txlcn-txmsg-netty-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/codingapi/txlcn/txlcn-txmsg-netty/unknown/txlcn-txmsg-netty-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

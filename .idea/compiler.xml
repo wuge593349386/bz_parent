@@ -11,6 +11,8 @@
         <module name="common_item" />
         <module name="common_mapper" />
         <module name="common_pojo" />
+        <module name="common_txlcn" />
+        <module name="common_txlcn_client" />
         <module name="common_utils" />
       </profile>
     </annotationProcessing>
@@ -21,6 +23,8 @@
       <module name="common_item" target="1.8" />
       <module name="common_mapper" target="1.8" />
       <module name="common_pojo" target="1.8" />
+      <module name="common_txlcn" target="1.8" />
+      <module name="common_txlcn_client" target="1.8" />
       <module name="common_utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>

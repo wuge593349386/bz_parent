@@ -1,5 +1,6 @@
 package com.bjsxt.item.service;
 
+import com.bjsxt.pojo.TbItem;
 import com.bjsxt.utils.PageResult;
 
 /**
@@ -16,4 +17,11 @@ public interface ItemService {
      * @return
      */
     PageResult selectTbItemAllByPage(Integer page, Integer rows);
+
+    /**
+     * 插入商品
+     * @param tbItem
+     * @return
+     */
+    Integer insertTbItem(TbItem tbItem);
 }

@@ -1,7 +1,6 @@
 package com.bjsxt.backend.feign;
 
-import com.bjsxt.pojo.TbItemCat;
-import com.bjsxt.pojo.TbItemParam;
+import com.bjsxt.pojo.*;
 import com.bjsxt.utils.PageResult;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -42,4 +41,28 @@ public interface CommonItemFeignClient {
      */
     @PostMapping("/service/itemParam/selectItemParamByItemCatId")
     TbItemParam selectItemParamByItemCatId(@RequestParam("itemCatId") Long itemCatId);
+
+    /**
+     * 插入商品信息
+     * @param tbItem
+     * @return
+     */
+    @PostMapping("/service/item/insertTbItem")
+    Integer insertTbItem(TbItem tbItem);
+
+    /**
+     * 插入商品描述
+     * @param tbItemDesc
+     * @return
+     */
+    @PostMapping("/service/itemDesc/insertTbItemDesc")
+    Integer insertItemDesc(TbItemDesc tbItemDesc);
+
+    /**
+     * 插入商品规格参数
+     * @param tbItemParamItem
+     * @return
+     */
+    @PostMapping("/service/itemParamItem/insertTbItemParamItem")
+    Integer insertTbItemParamItem(TbItemParamItem tbItemParamItem);
 }

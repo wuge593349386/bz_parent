@@ -5,6 +5,7 @@ import com.bjsxt.mapper.TbItemMapper;
 import com.bjsxt.pojo.TbItem;
 import com.bjsxt.pojo.TbItemExample;
 import com.bjsxt.utils.PageResult;
+import com.codingapi.txlcn.tc.annotation.LcnTransaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -38,5 +39,11 @@ public class ItemServiceImpl implements ItemService {
         result.setTotalPage(pageInfo.getTotal());
         result.setResult(list);
         return result;
+    }
+
+    @LcnTransaction
+    @Override
+    public Integer insertTbItem(TbItem tbItem) {
+        return this.tbItemMapper.insert(tbItem);
     }
 }

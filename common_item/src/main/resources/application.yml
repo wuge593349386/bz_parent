@@ -15,5 +15,7 @@ eureka:
     serviceUrl:
       defaultZone: http://eureka-server:8761/eureka/
 
-
+tx-lcn:
+  client:
+    manager-address: http://localhost:8070
 

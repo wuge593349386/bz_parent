@@ -1,12 +1,10 @@
 package com.bjsxt.backend.controller;
 
 import com.bjsxt.backend.service.ItemService;
+import com.bjsxt.pojo.TbItem;
 import com.bjsxt.utils.Result;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author wuge
@@ -39,4 +37,21 @@ public class ItemController {
         return Result.build(500, "error");
     }
 
+
+    /**
+     * 添加商品
+     * @param tbItem
+     * @param desc
+     * @param itemParams
+     * @return
+     */
+    @PostMapping("/insertTbItem")
+    public Result insertTbItem(TbItem tbItem, String desc, String itemParams){
+        try{
+            return this.itemService.insertTbItem(tbItem,desc,itemParams);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return Result.build(500,"error");
+    }
 }
