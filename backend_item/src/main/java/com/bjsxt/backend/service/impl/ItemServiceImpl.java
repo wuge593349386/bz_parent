@@ -10,6 +10,7 @@ import com.bjsxt.utils.PageResult;
 import com.bjsxt.utils.Result;
 import com.codingapi.txlcn.tc.annotation.LcnTransaction;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Date;
 
@@ -18,6 +19,7 @@ import java.util.Date;
  * @author wuge
  * @date 2020/3/30
  */
+@Service
 public class ItemServiceImpl implements ItemService {
 
     /**

@@ -7,6 +7,7 @@ import com.bjsxt.pojo.TbItemCat;
 import com.bjsxt.utils.PageResult;
 import com.bjsxt.utils.Result;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -15,6 +16,7 @@ import java.util.List;
  * @author wuge
  * @date 2020/3/30
  */
+@Service
 public class ItemCategoryServiceImpl implements ItemCategoryService {
 
     /**

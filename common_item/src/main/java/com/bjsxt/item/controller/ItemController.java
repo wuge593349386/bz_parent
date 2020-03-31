@@ -48,8 +48,8 @@ public class ItemController {
      * @param tbItem
      * @return
      */
-    @PostMapping("/deleteItemById")
+    /*@PostMapping("/deleteItemById")
     public Integer deleteItemById(@RequestBody TbItem tbItem){
         return this.itemService.updateItemById(tbItem);
-    }
+    }*/
 }

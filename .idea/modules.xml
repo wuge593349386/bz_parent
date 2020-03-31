@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/common_item/common_item.iml" filepath="$PROJECT_DIR$/common_item/common_item.iml" />
       <module fileurl="file://$PROJECT_DIR$/common_mapper/common_mapper.iml" filepath="$PROJECT_DIR$/common_mapper/common_mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/common_pojo/common_pojo.iml" filepath="$PROJECT_DIR$/common_pojo/common_pojo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common_txlcn/common_txlcn.iml" filepath="$PROJECT_DIR$/common_txlcn/common_txlcn.iml" />
       <module fileurl="file://$PROJECT_DIR$/common_txlcn_client/common_txlcn_client.iml" filepath="$PROJECT_DIR$/common_txlcn_client/common_txlcn_client.iml" />
       <module fileurl="file://$PROJECT_DIR$/common_utils/common_utils.iml" filepath="$PROJECT_DIR$/common_utils/common_utils.iml" />
     </modules>

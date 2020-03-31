@@ -9,6 +9,7 @@ import com.bjsxt.utils.IDUtils;
 import com.bjsxt.utils.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.text.SimpleDateFormat;
@@ -20,6 +21,7 @@ import java.util.List;
  * @author wuge
  * @date 2020/3/30
  */
+@Service
 public class FileUploadServiceImpl implements FileUploadService {
 
     /**

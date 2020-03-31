@@ -2,7 +2,7 @@ spring:
   application:
     name: backend-item
 server:
-  port: 9020
+  port: 9011
 eureka:
   client:
     serviceUrl:
@@ -16,4 +16,4 @@ FTP_BASEPATH: /home/ftpuser/
 
 tx-lcn:
   client:
-    manager-address: 192.168.70.157:8070
+    manager-address: 192.168.1.99:8070

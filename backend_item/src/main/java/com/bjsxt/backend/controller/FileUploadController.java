@@ -1,5 +1,6 @@
 package com.bjsxt.backend.controller;
 
+import com.bjsxt.backend.service.FileUploadService;
 import com.bjsxt.utils.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
